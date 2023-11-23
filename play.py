@@ -191,7 +191,7 @@ class play:
                     if not gif_counter % 1000:
                         self.take_snap(states)
                     if not gif_counter % 10000:
-                        print('Num trials = {} \t Num successes = {} \t Prop success = {}'.format(gif_counter, count,
+                        print('# Trials = {} \t # successes = {} \t Prop successes = {}'.format(gif_counter, count,
                                                                                                   round(count/gif_counter, 3)))
                     self.n_succ.append(round(count/gif_counter, 3))
                     break
