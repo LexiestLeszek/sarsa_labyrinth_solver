@@ -43,7 +43,9 @@ python3 main.py -f "data/labyrinth2.txt" -a 0.4 -g 0.9 -e 0.1
 -e (epsilon): Represents the exploration rate, usually in epsilon-greedy strategies. It determines the probability of the agent choosing a random action over the action with the highest Q-value. A higher epsilon value implies more exploration (choosing random actions), while a lower value leads to more exploitation (choosing actions based on learned Q-values).
 
 ## Inferences
+
 **state space** are the coordinates of the labyrinth with (-1,-1) being the state when the agent goes out of bounds and 
+
 **action space** are the two components of velocity with a constrint that it can have a absolute value of greater than 5.
 
 The algorithm was tested for three labyrinths. We can see that the algorithm(agent) starts to find the currect path after few iteration and also the proportion of successes keep on increasing with the number of episodes as the agent finds the optimal action value function.
