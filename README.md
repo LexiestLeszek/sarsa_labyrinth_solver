@@ -1,4 +1,4 @@
-# SARSA (on poilicy TD control) learning algorithm
+# SARSA reinforcement learning algorithm
 State-action-reward-state-action (SARSA) learning algorithm to solve labyrinth runs using reinforcement learning.
 
 ## Dataset 
