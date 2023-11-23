@@ -4,12 +4,13 @@ State-action-reward-state-action (SARSA) learning algorithm to solve labyrinth r
 ## Dataset 
 Upload the dataset into the algorithm as a *.txt file that contains info about the labyrinth e.g. - 
 
+<pre><code>
 sssssssssssssss
 000000000000000
 000000000000000
 000000000000000
 000000000000000
-0000xxxxxxx0000
+000000xxxxx0000
 000000000000000
 000000000000000
 000000000000000
@@ -17,10 +18,11 @@ xxxxx00000xxxxx
 000000000000000
 000000000000000
 000000000000000
-0000xxxxxxx0000
+0000xx00xx0000
 000000000000000
 000000000000000
 fffffffffffffff
+</code></pre>
 
 Where
 - **x** - barrier
